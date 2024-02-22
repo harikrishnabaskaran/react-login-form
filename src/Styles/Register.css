@@ -9,10 +9,10 @@ body {
 
 }
 .registration-form {
-    max-width: 400px;
+    max-width: 380px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0,1);
     margin-top: 20px;
@@ -86,6 +86,21 @@ body {
     animation-iteration-count:inherit;
   }
   
+  
+ @media (max-width: 480px) {
+  .login-form {
+    width: 90%;
+  }
+
+ #firstName,#lastName,#email,#phoneNumber,#postCode,#address{
+    padding-right: 5px;
+  }
+
+  .login-form ::placeholder {
+    padding-left: 2px;
+  }
+} 
+
   @keyframes shake {
     0%, 100% {
       transform: translateX(1);
