@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+@media screen and (max-width: 768px) {
+    .home {
+      padding-top: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .home {
+      padding-top: 5%;
+    }
+  }

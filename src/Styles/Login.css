@@ -1,0 +1,102 @@
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  animation: shake 0.7s ease-in-out; 
+  animation-iteration-count:initial;
+}
+
+#name, #email, #password {
+  padding-right: 20px;
+}
+
+.login-form ::placeholder {
+  padding-left: 10px;
+}
+
+.login-form p {
+  text-align: center;
+}
+
+/* @media (max-width: 768px) {
+  .login-form {
+    width: 70%;
+    padding: 10px;
+  }
+
+  #name, #email, #password {
+    padding-right: 10px;
+  }
+
+  .login-form ::placeholder {
+    padding-left: 5px;
+  }
+} */
+
+ @media (max-width: 480px) {
+  .login-form {
+    width: 90%;
+  }
+
+  #name, #email, #password {
+    padding-right: 5px;
+  }
+
+  .login-form ::placeholder {
+    padding-left: 2px;
+  }
+} 
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-5px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(5px);
+  }
+}

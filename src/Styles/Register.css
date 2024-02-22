@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(109.6deg, rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,1);
+    margin-top: 20px;
+    
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  #firstname,
+  #lastname {
+    padding-right: 20px; 
+  }
+  
+  #email {
+    padding-right: 20px; 
+  }
+  
+  #phno {
+    padding-right: 20px;
+  }
+  
+  #postcode {
+    padding-right: 20px;
+  }
+  
+  #address {
+    padding-right: 20px;
+  }
+  
+  .registration-form ::placeholder {
+    padding-left: 10px;
+  }
+  
+  .registration-form .error {
+    color: red;
+    font-size: 15px;
+    margin-top: 5px;
+    animation: shake 0.7s ease-in-out;
+    animation-iteration-count:inherit;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(1);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(5px);
+    }
+  }
+  
