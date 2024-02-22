@@ -60,20 +60,6 @@
   text-align: center;
 }
 
-/* @media (max-width: 768px) {
-  .login-form {
-    width: 70%;
-    padding: 10px;
-  }
-
-  #name, #email, #password {
-    padding-right: 10px;
-  }
-
-  .login-form ::placeholder {
-    padding-left: 5px;
-  }
-} */
 
  @media (max-width: 480px) {
   .login-form {
